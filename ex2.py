@@ -4,8 +4,12 @@ sum_u_u = 0
 num_1 = int(input("plies enter one number: "))
 num_2 = int(input("plies enter two number: "))
 
+# למה אתה צריך את התנאי השני ?
+# מספיק פה תנאי אחד
 while num_1 != -num_2 or num_2 != -num_1:
     a += 2
+    # צריך להחזיר את הסכום של כל המספרים
+    # החיוביים בלבד לא השליליים
     sum_u += num_1 + num_2
     if num_1 == num_2:
         sum_u_u += 1

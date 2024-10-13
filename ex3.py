@@ -47,3 +47,5 @@ print(yellow.status())
 print(mizrahit.exist("מהפכה", "Omer Adam"))
 
 print(large_disk_name(mizrahit, english))
+
+# מעולה !

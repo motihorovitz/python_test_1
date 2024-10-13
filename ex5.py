@@ -18,7 +18,6 @@ class VickeryAuction:
     max_price = 0
     sec_price = 0
     for participant in self.arr:
-
       if participant.price > max_price:
         name = participant.name
         sec_price = max_price

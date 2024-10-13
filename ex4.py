@@ -10,11 +10,12 @@ class Student:
         return False
     return True
 
-
-# arr_grades_a = [10,51,30,40]
-# arr_grades_b = [11,-1,54,44]
-# student = Student (2,arr_grades_a, arr_grades_b)
-# print(student.is_improved())
+# אם אין אף מקצוע שנלמד בשני הסמסטרים הפעולה תחזיר
+# False תתקן את זה
+arr_grades_a = [-1,-1,-1,-1]
+arr_grades_b = [-1,-1,-1,-1]
+student = Student (2,arr_grades_a, arr_grades_b)
+print(f"Does student improved - {student.is_improved()}")
 
 
 def id_student(list_u):
@@ -28,8 +29,8 @@ def id_student(list_u):
     return "null"
 
 
-student_0 = Student(5, [0, 51, 30, 40], [11, 0, 3, 44])
-student_1 = Student(3, [10, 51, 30, 40], [11, -1, 00, 44])
+student_0 = Student(5, [0, 51, 30, 40], [11, 60, 45, 44])
+student_1 = Student(3, [10, 51, 30, 40], [11, -1, 80, 44])
 student_2 = Student(4, [10, 51, 30, 40], [11, -1, 0, 44])
 
 list_s = [student_0, student_1, student_2]
